@@ -1,0 +1,24 @@
+#vimCodeElement, pre.program-output { 
+	white-space: pre-wrap; font-family: monospace; color: #00ff00; background-color: #000000; 
+	font-size:0.75em;
+	padding:10px;
+}
+pre.syntax.php .Constant { color: #ff6060; }
+pre.syntax.php .Comment { color: #8080ff; }
+pre.syntax.php .Special { color: #ff40ff; }
+pre.syntax.php .Identifier { color: #00ffff; }
+pre.syntax.php .Statement { color: #ffff00; }
+pre.syntax.php .PreProc { color: #ff40ff; }
+pre.syntax.php .Type { color: #00ff00; }
+
+pre.syntax.cpp .Constant { color: #ff6060; }
+pre.syntax.cpp .Statement { color: #ffff00; }
+pre.syntax.cpp .PreProc { color: #ff40ff; }
+pre.syntax.cpp .Type { color: #00ff00; }
+
+#vimCodeElement .Comment { color: #8080ff; }
+#vimCodeElement .Constant { color: #ff6060; }
+#vimCodeElement .Identifier { color: #00ffff; }
+#vimCodeElement .PreProc { color: #ff40ff; }
+#vimCodeElement .Type { color: #00aa00; }
+
