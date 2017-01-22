@@ -1,26 +1,29 @@
 # Generic Programming
 > A Disguised Attempt to Convince my Coworkers to use C++
 
+## Fundamental Theorem of Software Engineering (FTSE)
+
+"We can solve any problem by introducing an extra level of indirection."
+
 ## What is it?
 
 Generic programming is a style of computer programming in which algorithms
 are written in terms of types to-be-specified-later that are then
 instantiated when needed for specific types provided as parameters.
-
 ~ Wikipedia
 
 Really it's about taking concrete algorithms and data structures and
 generalizing them to work with other types.
 
 These types can be anything, or they can be required to fit certain
-constraints via *Concepts*.
+constraints via **Concepts**.
 
 ## Concepts
 
 > Not a part of C++ yet
 
 ```cpp
-template <class T>
+template <typename T>
 concept bool EqualityComparable() { 
     return requires(T a, T b) {
         {a == b} -> Boolean; // Boolean is the concept defining a type usable in boolean context
