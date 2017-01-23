@@ -112,7 +112,9 @@ void bind(Json::Value const& obj, int& field)
 
 ### Subtyping Polymorphism
 
-```
+Complex inheritance chains! Oh my!
+
+```cpp
 struct Cat :: Animal
 {
   auto speak() override
